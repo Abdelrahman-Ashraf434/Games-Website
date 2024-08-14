@@ -1,0 +1,37 @@
+p{
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: rgb(58, 73, 123);
+}
+nav .logo {
+  width: 50px;
+}
+nav ul li {
+  font-size: 0.8rem;
+}
+.game-info{
+  border:1px solid black ;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.card-footer{
+  border-top: 1px solid black ;
+}
+.card-footer span {
+  margin-top: 1rem;
+  background-color: #32383e;
+  padding: 0 0.5rem ;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+.card-header span{
+  background-color: rgb(58, 73, 123);
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  border-radius: 7px;
+  
+}
