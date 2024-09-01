@@ -1,4 +1,4 @@
-import displayGamesData from "./Ui.module.js";
+import displayGamesData from "./ui.module.js";
 class Games {
   async getGamesData(category) {
     const options = {
@@ -15,6 +15,7 @@ class Games {
         options
       );
       const games = await response.json();
+      console.log(games);
       displayGamesData(games);
     } catch (error) {
       console.log(error);
